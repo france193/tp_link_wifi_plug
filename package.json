@@ -1,0 +1,21 @@
+{
+  "name": "tp_link_wifi_plug",
+  "version": "1.0.0",
+  "description": "A simple nodeJS application to control a tp link HS110 wifi smart plug.",
+  "main": "index.js",
+  "scripts": {
+    "run": "node -r dotenv/config index.js",
+    "debug": "node -r dotenv/config $NODE_DEBUG_OPTION index.js"
+  },
+  "keywords": [
+    "nodeJS",
+    "TP-Link",
+    "JS"
+  ],
+  "author": "Francesco Longo",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "tplink-smarthome-api": "^0.23.1"
+  }
+}
