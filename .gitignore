@@ -1,4 +1,4 @@
-# Created by .ignore support plugin (hsz.mobi)
+# .gitignore
 .env
 node_modules
 .idea
